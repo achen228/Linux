@@ -1,0 +1,5 @@
+total 24
+-rw-rw-r-- 1 achen achen    36 Nov 10 10:31 Makefile
+-rwxrwxr-x 1 achen achen 13269 Nov 10 11:00 minishell
+-rw-rw-r-- 1 achen achen  2925 Nov 10 11:00 minishell.c
+-rw-rw-r-- 1 achen achen     0 Nov 10 11:00 test.txt
