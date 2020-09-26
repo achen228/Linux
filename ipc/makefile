@@ -1,4 +1,8 @@
-all:fifo_read fifo_write
+all:pipe pipe2 fifo_read fifo_write shm_read shm_write
+shm_write:shm_write.c
+	gcc $^ -o $@
+shm_read:shm_read.c
+	gcc $^ -o $@
 fifo_write:fifo_write.c
 	gcc $^ -o $@
 fifo_read:fifo_read.c
