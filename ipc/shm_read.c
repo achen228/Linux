@@ -17,7 +17,7 @@ int main()
     }
 
     // 建立映射
-    void *shm_start = shmat(shmid, NULL, 0);
+    void* shm_start = shmat(shmid, NULL, 0);
     if(shm_start == (void*)-1)
     {
         perror("shmat error");
@@ -31,7 +31,7 @@ int main()
         sleep(1);
     }
 
-    // 接触映射关系
+    // 解除映射关系
     shmdt(shm_start);
 
     // 删除共享内存
