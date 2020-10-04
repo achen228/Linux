@@ -25,5 +25,8 @@ int main()
     char buf[1024] = {0};
     size_t rnum = fread(buf, 1, sizeof(buf) - 1, fp);
     printf("rnum:%d --- buf:%s\n", (int)rnum, buf);
+
+    //关闭文件
+    fclose(fp);
     return 0;
 }
