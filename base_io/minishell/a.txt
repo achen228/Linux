@@ -1,0 +1,9 @@
+a.txt
+makefile
+minishell
+minishell.c
+total 24
+-rw-rw-r-- 1 zhangchen zhangchen   37 Oct  7 12:33 a.txt
+-rw-rw-r-- 1 zhangchen zhangchen   36 Oct  7 12:31 makefile
+-rwxrwxr-x 1 zhangchen zhangchen 9008 Oct  7 12:31 minishell
+-rw-rw-r-- 1 zhangchen zhangchen 3220 Oct  7 12:30 minishell.c
